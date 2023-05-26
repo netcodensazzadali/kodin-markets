@@ -1,0 +1,32 @@
+.partnership {
+  padding: 180px 0;
+  @media (max-width: 767.98px) {
+    padding: 50px 0;
+  }
+  .card {
+    h2 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 55px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      color: #808080;
+      margin-bottom: 0;
+      padding-right: 5rem;
+      @media (max-width: 1199.98px) {
+        padding-right: 0;
+        font-size: 16px;
+      }
+      @media (max-width: 767.98px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .text-center {
+    img {
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.call-back {
+  .form {
+    .form-group {
+      position: relative;
+
+      input,
+      textarea {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #919191;
+        width: 100%;
+        padding: 1rem 0 1rem 2rem;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #919191;
+        transition: 0.3s;
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        &:focus {
+          border-color: #d1990a;
+        }
+      }
+
+      svg {
+        position: absolute;
+        top: 18px;
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          top: 28px;
+        }
+      }
+
+      a {
+        width: 152px;
+        height: 56px;
+        margin-top: 30px;
+      }
+    }
+  }
+}

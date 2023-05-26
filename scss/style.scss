@@ -1,0 +1,77 @@
+@import "fonts";
+@import "mixin";
+@import "reset";
+@import "variables";
+@import "colors";
+@import "./components/back-to-top";
+@import "./components/global-button";
+@import "./components/title";
+@import "./components/header";
+@import "./components/banner";
+@import "./components/trading";
+@import "./components/open-trading";
+@import "./components/account-types";
+@import "./components/payment-methods";
+@import "./components/call-back";
+@import "./components/page-title";
+@import "./components/core-value";
+@import "./components/transaction";
+@import "./components/partnership";
+@import "./components/footer";
+
+
+@import "./components/secure-money";
+@import "./components/world-trading-markets";
+@import "./components/user-review";
+@import "./components/discover";
+@import "./components/mobile-app";
+@import "./components/stepper";
+@import "./components/explore-network";
+@import "./components/trading-apps";
+@import "./components/start-trading";
+@import "./components/why-trade";
+@import "./components/partnerTable";
+@import "./components/platform";
+
+body {
+  background: #171717;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: $white;
+  padding-top: 85px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+.text-gray {
+  color: #858585;
+}
+
+section {
+  padding: 100px 0;
+
+  @media(max-width: 575.98px) {}
+}
+
+.bg-black-darken-1 {
+  background-color: #171717 !important;
+}
+
+.bg-black-darken-2 {
+  background-color: $body-color;
+}
+
+.custom-container {
+  max-width: 1320px;
+}
+
+.bg-darken {
+  background: #1D1D20;
+}

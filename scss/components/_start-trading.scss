@@ -1,0 +1,62 @@
+.start-trading {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  @media(max-width: 575.98px) {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .container {
+    background: linear-gradient(91.92deg, #4578fd 0.55%, #4578fd 99.64%);
+    border-radius: 4.44444px;
+
+    .content {
+      padding-left: 80px;
+      padding-top: 40px;
+      padding-bottom: 48px;
+
+      @media (max-width: 991.98px) {
+        padding-left: 0;
+        padding-top: 70px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 40px;
+        line-height: 133%;
+      }
+
+      p {
+        margin-bottom: 36px;
+      }
+
+      a {
+        color: #4578fd;
+
+        i {
+          width: 24px;
+          height: 24px;
+          background-color: #4578fd24;
+          text-align: center;
+          line-height: 24px;
+          border-radius: 12px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .img-section {
+      float: right;
+      padding-right: 45px;
+      padding-bottom: 35px;
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        float: inherit;
+        padding-right: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

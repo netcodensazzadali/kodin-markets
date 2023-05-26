@@ -1,0 +1,22 @@
+.payment-methods {
+  padding-top: 130px;
+  padding-bottom: 140px;
+   background: #171717;
+
+  @media (max-width: 767.98px) {
+    padding: 60px 0;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 767.98px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+}

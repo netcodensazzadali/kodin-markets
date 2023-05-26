@@ -1,0 +1,48 @@
+.why-trade {
+  @media(max-width: 575.98px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .card {
+    border: 0;
+    &.content-card {
+      .card-text {
+        margin-left: 30px;
+
+        @media(max-width: 991.98px) {
+          margin-left: 0;
+        }
+
+        h5 {
+          font-size: 40px;
+          line-height: 133%;
+          margin-bottom: 20px;
+
+          @media(min-width: 992px) and (max-width: 1199.98px) {
+            font-size: 38px;
+          }
+        }
+
+        ul {
+          margin-left: 16px;
+          margin-bottom: 20px;
+
+          li {
+            font-size: 18px;
+            line-height: 200%;
+            color: #858585;
+            list-style-type: disc;
+          }
+        }
+      }
+    }
+
+    .image-box {
+      img {
+        @media(max-width: 991.98px) {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

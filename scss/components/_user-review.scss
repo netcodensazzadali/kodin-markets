@@ -1,0 +1,101 @@
+.user-review {
+  @media(max-width: 575.98px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .card {
+    background: #1d1d20;
+    height: 220px;
+
+    &.all-card {
+      .card-body {
+        display: block;
+        padding-top: 30px;
+
+        .logo-icon {
+          justify-content: flex-start;
+
+          img {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      ul {
+        @include flexbox;
+
+        @media (max-width: 767.98px) {
+          justify-content: center;
+        }
+
+        li {
+          @media (max-width: 767.98px) {
+            margin-right: 10px;
+          }
+
+          img {
+            @media(min-width: 992px) and (max-width: 1199.98px) {
+              width: 28px;
+            }
+          }
+        }
+      }
+
+      p {
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 22px;
+        color: #fff;
+
+        span {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 22px;
+          text-decoration: underline;
+        }
+      }
+
+      .logo-icon {
+        @include flexbox;
+        justify-content: center;
+      }
+
+      .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        height: 64px;
+      }
+
+      .rating {
+        @include flexbox;
+        margin-top: 22px;
+
+        img {
+          width: 14px;
+          margin-right: 5px;
+        }
+
+        p {
+          font-weight: 200;
+          font-size: 12px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}

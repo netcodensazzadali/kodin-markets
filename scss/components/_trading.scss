@@ -1,0 +1,129 @@
+.trading {
+  background: $bg-light-black;
+  padding-top: 90px;
+  padding-bottom: 115px;
+
+  @media (max-width: 767.98px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &.auto-trading {
+    padding-bottom: 0;
+
+    .card {
+      height: 350px;
+
+      @media(min-width: 768px) and (max-width:991.98px) {
+        height: 250px;
+      }
+
+      @media (max-width: 767.98px) {
+        height: 300px;
+      }
+    }
+  }
+
+  .card {
+    @include border-card;
+    background: linear-gradient(147.31deg,
+        rgba(255, 255, 255, 0.1) 1.81%,
+        rgba(255, 255, 255, 0.024) 64.82%);
+    padding: 10px 35px 6px 35px;
+
+    @media (max-width: 1199.98px) {
+      padding: 20px;
+    }
+
+    @media (max-width: 767.98px) {
+      margin-bottom: 30px;
+      padding: 10px 50px 6px 50px;
+    }
+
+    @media (max-width: 575.98px) {
+      padding: 20px;
+    }
+
+    .number {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      span {
+        &.numbers {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 96px;
+          color: #2b2b2b;
+
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            font-size: 36px;
+            line-height: 80px;
+          }
+        }
+      }
+    }
+
+    .titles {
+      margin-bottom: 20px;
+
+      h5 {
+        font-size: 32px;
+        line-height: 48px;
+        color: #f7f7f7;
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        @media (max-width: 575.98px) {
+          font-size: 35px;
+          line-height: 50px;
+        }
+      }
+    }
+
+    .subtitle {
+      margin-bottom: 25px;
+      height: 140px;
+
+      @media (max-width: 1199.98px) {
+        height: 170px;
+      }
+
+      @media (max-width: 767.98px) {
+        height: auto;
+      }
+
+      p {
+        font-size: 22px;
+        line-height: 28px;
+        color: #808080;
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        @media (max-width: 575.98px) {
+          font-size: 16px;
+          line-height: 27px;
+        }
+      }
+    }
+
+    .links {
+      a {
+        width: 147px;
+        height: 48px;
+        line-height: 44px;
+      }
+    }
+  }
+}

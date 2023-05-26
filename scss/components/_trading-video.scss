@@ -1,0 +1,37 @@
+.trading-video {
+    padding-top: 120px;
+  .video-card {
+    background: #171717;
+    margin-bottom: 24px;
+    .card-body {
+      .card-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+      }
+    }
+  }
+  .nav {
+    .nav-item {
+      button {
+        font-weight: 700;
+        font-size: 15px;
+        color: #cf9603;
+        background: #1d1d20;
+        border-radius: 0;
+        border-width: 1px;
+        border-color: transparent;
+        margin-right: 2px;
+        &.active {
+          color: #0e0e0e;
+          background: linear-gradient(
+            91.8deg,
+            #cf9603 1.38%,
+            #eedc9b 51.66%,
+            #cf9603 104.08%
+          );
+        }
+      }
+    }
+  }
+}

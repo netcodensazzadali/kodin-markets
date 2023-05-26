@@ -1,0 +1,48 @@
+.discover {
+  @media(max-width: 575.98px) {
+    padding-bottom: 0;
+  }
+  .content-section {
+    h2 {
+      font-size: 40px;
+      line-height: 133%;
+      letter-spacing: -0.01em;
+      margin-bottom: 64px;
+      
+      span {
+        font-weight: 400;
+        color: #858585;
+        display: block;
+      }
+    }
+    ul {
+      li {
+        @include flexbox;
+        margin-bottom: 70px;
+        @media(max-width: 575.98px) {
+          flex-direction: column;
+          text-align: center;
+        }
+        .icon {
+            margin-right: 30px;
+          img {
+          }
+        }
+        .details {
+            padding-right: 32px;
+          h3 {
+            font-size: 25px;
+            line-height: 37px;
+          }
+        }
+      }
+    }
+  }
+  .discover-img {
+      @media(max-width: 991.98px) {
+        display: flex;
+        margin: 0 auto 100px auto;
+
+      }
+    }
+}

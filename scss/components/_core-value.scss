@@ -1,0 +1,230 @@
+.core-value {
+  background-color: $bg-light-black;
+  padding: 120px 0;
+
+  @media (max-width: 575.98px) {
+    padding-bottom: 20px;
+    padding-top: 80px;
+  }
+
+  &.liquidity-core-value {
+    background-color: $body-color;
+
+    .card {
+      height: 410px;
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        height: 350px;
+      }
+
+      .card-header {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0;
+
+        @media (max-width: 575.98px) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
+        h5 {
+          font-size: 29px;
+
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            font-size: 25px;
+          }
+
+          @media (max-width: 575.98px) {
+            font-size: 25px;
+          }
+        }
+      }
+
+      .card-body {
+        p {
+          font-size: 24px;
+          line-height: 40px;
+
+          @media (max-width: 575.98px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  &.account-core-value {
+    .card {
+      @media (min-width: 768px) and (max-width: 11199.98px) {
+        height: 300px;
+
+        .card-header {
+          padding: 50px 40px 0px 40px;
+        }
+      }
+    }
+  }
+
+  &.core-value-platform {
+    .card {
+      height: 400px;
+
+      @media (max-width: 575.98px) {
+        height: auto;
+      }
+
+      .card-header {
+        @media (max-width: 575.98px) {
+          flex-direction: column;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        svg {
+          width: auto;
+        }
+
+        h5 {
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            font-size: 32px;
+            line-height: 48px;
+          }
+        }
+      }
+
+      .card-body {
+        p {
+          font-size: 24px;
+
+          @media (max-width: 575.98px) {
+            font-size: 16px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  &.core-value-partnership {
+    .card {
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        height: 450px;
+      }
+
+      .card-header {
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          flex-direction: column;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        @media (max-width: 575.98px) {
+          flex-direction: column;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        svg {
+          width: auto;
+        }
+
+        h5 {
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            font-size: 32px;
+            line-height: 48px;
+          }
+        }
+      }
+
+      .card-body {
+        p {
+          font-size: 24px;
+
+          @media (max-width: 575.98px) {
+            font-size: 16px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  .card {
+    background: linear-gradient(147.31deg,
+        rgba(255, 255, 255, 0.1) 1.81%,
+        rgba(255, 255, 255, 0.024) 64.82%);
+    backdrop-filter: blur(120px);
+    border: 2px solid #686666;
+    border-radius: 0;
+    margin-bottom: 30px;
+    height: 372px;
+
+    @media (max-width: 767.98px) {
+      height: auto;
+    }
+
+    .card-header {
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      // flex-direction: column;
+      border: 0;
+      border-radius: 0;
+      padding: 50px 50px 0px 50px;
+
+      @media (max-width: 991.98px) {}
+
+      svg {
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+        @media (max-width: 991.98px) {
+          width: 50px;
+        }
+      }
+
+      h5 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #f7f7f7;
+        text-transform: capitalize;
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        @media (max-width: 575.98px) {
+          font-size: 25px;
+        }
+      }
+    }
+
+    .card-body {
+      padding-left: 45px;
+      padding-right: 80px;
+
+      @media (max-width: 991.98px) {
+        padding: 15px;
+      }
+
+      @media (max-width: 767.98px) {
+        padding-bottom: 50px;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 36px;
+        color: #808080;
+        margin-bottom: 0;
+
+        @media (max-width: 1199.98px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

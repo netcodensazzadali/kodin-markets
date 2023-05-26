@@ -1,0 +1,70 @@
+.trading-apps {
+  @media(max-width: 575.98px) {
+    padding-bottom: 0;
+  }
+  .card-body {
+    h2 {
+      font-size: 40px;
+      line-height: 60px;
+      letter-spacing: 0.04em;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: rgba(133, 133, 133, 0.6);
+      letter-spacing: -0.014em;
+      margin-bottom: 50px;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-right: 13px;
+        width: 180px;
+
+        @media(min-width: 768px) and (max-width: 991.98px) {
+          width: 220px;
+          justify-content: flex-start;
+        }
+
+        @media(max-width: 575.98px) {
+          display: block;
+          width: 100%;
+          margin-right: 0;
+        }
+
+        a {
+          @include flexbox;
+          width: 100%;
+          max-width: 180px;
+          height: 60px;
+          color: #fff;
+          border: 1px solid #ffffff;
+          border-radius: 4px;
+          justify-content: center;
+
+          @media(max-width: 575.98px) {
+            max-width: 100%;
+          }
+
+          img {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .trading-image {
+    @media(max-width: 991.98px) {
+      display: flex;
+      margin: 0 auto 50px auto;
+    }
+  }
+}
