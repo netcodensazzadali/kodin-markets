@@ -164,7 +164,7 @@
         <!-- End World Trading Market Section -->
 
         <!-- Start User Review Section -->
-        <section class="user-review">
+        <!-- <section class="user-review">
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -263,7 +263,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End User Review Section -->
 
         <!-- Start Discover Section -->

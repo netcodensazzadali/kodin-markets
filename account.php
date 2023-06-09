@@ -29,7 +29,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="card-links wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
-                                                    <a href="https://client.kodincapital.com/open-demo-account" target="_blank" class="btn-theme">Demo Account</a>
+                                                    <a href="https://client.kodincapital.com/login" target="_blank" class="btn-theme">Demo Account</a>
                                                     <a href="https://client.kodincapital.com/open-trading-account" target="_blank" class="btn-theme btn-theme-outline">Live Account
                                                     </a>
                                                 </div>

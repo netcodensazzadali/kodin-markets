@@ -78,8 +78,8 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 mb-5 text-center text-md-left mb-lg-0">
                         <img src="./img/icons/location-blue.svg" alt="iStep-3" />
-                        <h3>Office</h3>
-                        <p class="text-gray">Dr Ferriere Street, Port Louis, Mauritius.</p>
+                        <h3>Physical Address</h3>
+                        <p class="text-gray">Kodin Capital Markets Limited, <br> A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..</p>
                     </div>
                 </div>
             </div>

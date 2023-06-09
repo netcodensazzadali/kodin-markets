@@ -72,7 +72,7 @@
                         <span><img src="./img/icons/mail.svg" alt="" /></span>support@kodincapital.com
                     </p>
                     <p>
-                        <span><img src="./img/icons/location.svg" alt="" /></span>Dr Ferriere Street, Port Louis, Mauritius.
+                        <span><img src="./img/icons/location.svg" alt="" /></span>A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..
                     </p>
                 </div>
             </div>
