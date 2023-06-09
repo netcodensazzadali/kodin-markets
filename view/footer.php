@@ -72,18 +72,29 @@
                         <span><img src="./img/icons/mail.svg" alt="" /></span>support@kodincapital.com
                     </p>
                     <p>
-                        <span><img src="./img/icons/location.svg" alt="" /></span>A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..
+                        <span>
+                            <img src="./img/icons/location.svg" alt="" /></span>
+                        Physical Address: A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..<br>
+                        Legal Address: Dr. Ferrier Street, Port Louis, Mauritius
                     </p>
                 </div>
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row disclaimer">
             <div class="col-md-12 bg-black-darken-1">
-                <p class="text-gray py-sm-5 py-3 px-sm-5 px-3" style="margin: 0; line-height: 37px;">
+                <p class="text-gray py-sm-5 py-3 px-sm-5 px-3">
                     <span class="text-danger">Risk Warning:</span> Trading leveraged products, including Forex and CFDs, carries a significant level of risk to your capital and may not be appropriate for all investors. Prior to trading, please make sure you fully understand the risks involved, taking into consideration your investment objectives and level of experience, and get independent advice if necessary.
                     <br><br>
-                        In addition to accepting customers from the United States, Canada, Belgium, Sudan, Syria, and North Korea, kodin capital does not provide binary options. You should be fully informed of the dangers associated with trading on margin and in the currency market before you begin, as well as your degree of experience.
+                    In addition to accepting customers from the United States, Canada, Belgium, Sudan, Syria, and North Korea, kodin capital does not provide binary options. You should be fully informed of the dangers associated with trading on margin and in the currency market before you begin, as well as your degree of experience.
+                    <br><br>
+                    <span class="text-warning">Disclaimer:</span>
+                    An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in <a href="https://kodincapital.com/">kodincapital.com</a> should seek their own financial or professional advice. Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not. <br>
+
+                    You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of kodin capital or any of its affiliates, directors, officers or employees.
+                    <br><br>
+                    Restricted Regions: kodin capital does not provide services for citizens/residents of the United States, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of kodin capital are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation. OR Information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+
                 </p>
             </div>
         </div>

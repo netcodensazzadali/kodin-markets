@@ -60,27 +60,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-6 col-xl-3 mb-5 text-center text-md-left mb-lg-0">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/phone-blue.svg" alt="Step-1" />
                         <h3>Client Enquiries</h3>
                         <p class="text-gray">+91 9626300017</p>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 mb-5 text-center text-md-left mb-lg-0">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/mail-blue.svg" alt="Step-2" />
                         <h3>Email</h3>
                         <p class="text-gray">
                             support@kodincapital.com</p>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 mb-5 text-center text-md-left mb-lg-0">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/phone-blue.svg" alt="Step-1" />
                         <h3>Accounts Department</h3>
                         <p class="text-gray">+971 52 732 8702</p>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 mb-5 text-center text-md-left mb-lg-0">
+                    <div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
+                        <img src="./img/icons/location-blue.svg" alt="iStep-3" />
+                        <h3>Legal Address</h3>
+                        <p class="text-gray">Dr. Ferrier Street, Port Louis, Mauritius </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/location-blue.svg" alt="iStep-3" />
                         <h3>Physical Address</h3>
                         <p class="text-gray">Kodin Capital Markets Limited, <br> A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..</p>
                     </div>
+
                 </div>
             </div>
         </section>

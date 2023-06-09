@@ -1818,7 +1818,7 @@ footer .bottom-footer p {
 }
 
 .stepper {
-  background: #1D1D20;
+  background: #1d1d20;
 }
 @media (max-width: 575.98px) {
   .stepper {
@@ -1832,6 +1832,11 @@ footer .bottom-footer p {
   margin-bottom: 22px;
   font-size: 20px;
   line-height: 27px;
+}
+@media (max-width: 991.98px) {
+  .stepper h3 {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -2092,6 +2097,12 @@ section {
 
 .bg-darken {
   background: #1D1D20;
+}
+
+.disclaimer p {
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
