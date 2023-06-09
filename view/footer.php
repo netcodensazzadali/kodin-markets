@@ -77,6 +77,17 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 bg-black-darken-1">
+                <p class="text-gray py-sm-5 py-3 px-sm-5 px-3" style="margin: 0; line-height: 37px;">
+                    <span class="text-danger">Risk Warning:</span> Trading leveraged products, including Forex and CFDs, carries a significant level of risk to your capital and may not be appropriate for all investors. Prior to trading, please make sure you fully understand the risks involved, taking into consideration your investment objectives and level of experience, and get independent advice if necessary.
+                    <br><br>
+                        In addition to accepting customers from the United States, Canada, Belgium, Sudan, Syria, and North Korea, kodin capital does not provide binary options. You should be fully informed of the dangers associated with trading on margin and in the currency market before you begin, as well as your degree of experience.
+                </p>
+            </div>
+        </div>
+        <hr>
         <div class="row">
             <div class="col-xl-12">
                 <div class="bottom-footer">
