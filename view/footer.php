@@ -2,7 +2,7 @@
 <footer>
     <div class="container custom-container">
         <div class="row">
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <!-- <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="card bg-transparent border-0">
                     <div class="card-body py-0 text-center text-md-left">
                         <img src="./img/logo/logo.svg" alt="Logo" />
@@ -12,8 +12,8 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            </div> -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="row">
                     <div class="col-md-6 mb-5 mb-md-0">
                         <ul class="text-center text-md-left">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="social-links text-center text-md-left">
                     <ul>
                         <li class="wow pulse" data-wow-iteration="infinite" data-wow-duration="2000ms">
@@ -73,9 +73,15 @@
                     </p>
                     <p>
                         <span>
-                            <img src="./img/icons/location.svg" alt="" /></span>
+                            <img src="./img/icons/location.svg" alt=""></span>
                         Physical Address: A8/1, Ground Floor, 11th Cross, Thillainagar, Trichy, Tamilnadu - 620018, India..<br>
-                        Legal Address: Dr. Ferrier Street, Port Louis, Mauritius
+
+                    </p>
+                    <p>
+                        <span>
+                            <img src="./img/icons/location.svg" alt=""></span>
+
+                        Register Address: Dr. Ferrier Street, Port Louis, Mauritius
                     </p>
                 </div>
             </div>
