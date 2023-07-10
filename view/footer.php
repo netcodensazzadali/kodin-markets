@@ -81,7 +81,7 @@
                         <span>
                             <img src="./img/icons/location.svg" alt=""></span>
 
-                        Register Address: Dr. Ferrier Street, Port Louis, Mauritius
+                        Register Address: 20, Edith Cavell Street Port-Louis Level 6 Ken Lee Building Port-Louis MAURITIUS
                     </p>
                 </div>
             </div>

@@ -79,7 +79,7 @@
                     <div class="col-md-6 col-sm-6 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/location-blue.svg" alt="iStep-3" />
                         <h3>Legal Address</h3>
-                        <p class="text-gray">Dr. Ferrier Street, Port Louis, Mauritius </p>
+                        <p class="text-gray">20, Edith Cavell Street Port-Louis Level 6 Ken Lee Building Port-Louis MAURITIUS </p>
                     </div>
                     <div class="col-md-6 col-sm-12 col-lg-4 col-xl-4 mb-5 text-center text-md-left mb-lg-0 pb-0 pb-sm-5">
                         <img src="./img/icons/location-blue.svg" alt="iStep-3" />
